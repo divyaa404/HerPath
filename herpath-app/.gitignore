@@ -30,7 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files — real secrets ignored, example template committed
+# env files  real secrets ignored, example template committed
 .env*
 !.env.example
 
