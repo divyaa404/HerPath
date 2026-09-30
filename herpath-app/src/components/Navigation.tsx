@@ -176,8 +176,7 @@ export function Sidebar() {
     { href: '/portfolio', label: 'Portfolio', icon: TrendingUp },
     { href: '/opportunities', label: 'Opportunities', icon: Briefcase },
     { href: '/profile', label: 'Profile', icon: User },
-    { href: '/fraud-legal-help', label: 'Fraud & Legal Help', icon: Shield },
-    { href: '/privacy', label: 'Privacy & Access', icon: Shield, badge: pendingCount > 0 ? pendingCount : undefined },
+    { href: '/fraud-legal-help', label: 'Fraud & Legal Help', icon: Shield, badge: undefined },
   ];
 
   const expertNavItems = [
